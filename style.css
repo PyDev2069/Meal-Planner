@@ -12,7 +12,7 @@
 .first{
 
     width: 100%;
-    background-image:url("images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg") ;
+    background-image:url("dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg") ;
     color: white;
     display: flex;
     flex-direction: column;
@@ -155,7 +155,7 @@ margin-top: 5rem;
 
 }
 .second .imgdiv{
-    background-image: url("images/high-angle-shot-vegetable-salad-white-bowl.jpg");
+    background-image: url("high-angle-shot-vegetable-salad-white-bowl.jpg");
     height: 30rem;
     width: 30rem;
     border-radius: 25px;
@@ -201,7 +201,7 @@ margin-top: 5rem;
 
 }
 .third1{
-    background-image: url("images/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg");
+    background-image: url("penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg");
     height: 23rem;
     width: 23rem;
     border-radius: 30px;
@@ -213,7 +213,7 @@ margin-top: 5rem;
 
 }
 .third2{
-    background-image:url("images/third2.jpeg");
+    background-image:url("third2.jpeg");
     height: 23rem;
     width: 23rem;
     border-radius: 30px;
@@ -225,7 +225,7 @@ margin-top: 5rem;
 
 }
 .third3{
-    background-image: url("images/third3.jpeg");
+    background-image: url("third3.jpeg");
     height: 23rem;
     width: 23rem;
     border-radius: 30px;
@@ -272,7 +272,7 @@ margin-top: 5rem;
 
     }
 .fourth .imgdiv{
-    background-image: url("images/croissants.jpeg");
+    background-image: url("croissants.jpeg");
     height: 30rem;
     width: 30rem;
     border-radius: 25px;
@@ -313,7 +313,7 @@ margin-top: 5rem;
     }
    
      .fifth .imgdiv{
-        background-image: url("images/fresh-salad-with-turkey-eggs-vegetables.jpg");
+        background-image: url("fresh-salad-with-turkey-eggs-vegetables.jpg");
         height: 30rem;
         width: 30rem;
         border-radius: 25px;
@@ -328,7 +328,7 @@ margin-top: 5rem;
     }
 .sixth{
     width: 100%;
-    background-image:url("images/chillies.jpg") ;
+    background-image:url("chillies.jpg") ;
     color: white;
     display: flex;
     flex-direction: column;
