@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color:#999999 ;
+}
+.first{
+
+    width: 100%;
+    background-image:url("images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg") ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    min-height: 100vh;
+    height: auto;  
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 150px; 
+
+
+
+    
+}
+.firstchild{
+    width: 25rem;
+    height: 3rem;
+    margin: 1rem;
+    padding: 2rem;
+  
+   
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    flex-grow: 1;
+   
+}
+body{
+    padding-top: 50px;
+}
+.navbar{
+    height:50px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white; 
+    transition: background-color 0.4s ease-in-out; 
+
+    z-index: 1000; 
+
+   
+}
+.navbar a{
+    text-decoration: none;
+    color: #999999;
+    padding-left: 40px;
+    font-size: 15px;
+}
+.navbar a:hover{
+    color: #f9de9b;
+}
+.navbar a:active{
+    color: #f1ae0e;
+}
+.circlediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    color: black;
+    background-color: #99e54d;
+    margin: 0.1rem;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    
+ 
+    
+}
+.circle .firstpara {
+    font-size: 50px;
+    font-weight: 700;
+}
+.circle .secondpara {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.secondchild{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem;
+
+}
+.thirdchild{
+    font-size: 60px;
+    font-weight: 700;
+}
+.btn{
+    background-color: #f1ae0e;
+    border: none;
+    color: white;
+    height: 50px !important;
+    width: 180px;
+    border-radius: 50px;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-weight: 500;
+
+}
+
+.second{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+
+   
+    position: relative;
+
+    min-height: 100vh;
+    height: auto; 
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+
+
+}
+.second .textdiv{
+width: 50%;
+margin-right: 3rem;
+margin-top: 5rem;
+
+}
+.second .imgdiv{
+    background-image: url("images/high-angle-shot-vegetable-salad-white-bowl.jpg");
+    height: 30rem;
+    width: 30rem;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out;
+}
+.second .imgdiv:hover{
+    transform: scale(1.02); 
+
+}
+.heading{
+    font-size: 50px;
+    font-weight: 700;
+}
+.subheading{
+    font-size: 25px;
+    font-weight: 650;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.content{
+    font-size: 20px;
+    font-weight: 300;
+}
+.third{
+    width: 100%;
+    color: white;
+    display: flex;
+    position: relative;
+
+    min-height: 80vh;
+    height: auto;  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+
+
+
+}
+.third1{
+    background-image: url("images/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg");
+    height: 23rem;
+    width: 23rem;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 1rem;
+    transition: transform 0.3s ease-in-out;
+
+
+}
+.third2{
+    background-image:url("images/third2.jpeg");
+    height: 23rem;
+    width: 23rem;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 1rem;
+    transition: transform 0.3s ease-in-out;
+
+
+}
+.third3{
+    background-image: url("images/third3.jpeg");
+    height: 23rem;
+    width: 23rem;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out;
+
+}
+.third1:hover{
+    transform: scale(1.02); 
+
+}
+.third2:hover{
+    transform: scale(1.02); 
+
+}
+.third3:hover{
+    transform: scale(1.02); 
+
+}
+.fourth{
+    width: 100%;
+   background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+
+    min-height: 100vh;
+    height: auto;  
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.fourth .textdiv{
+    width: 50%;
+    margin-top: 10rem;
+
+    }
+.fourth .imgdiv{
+    background-image: url("images/croissants.jpeg");
+    height: 30rem;
+    width: 30rem;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 3rem;
+    transition: transform 0.3s ease-in-out;
+
+    
+}
+.fourth .imgdiv:hover{
+    transform: scale(1.02); 
+
+
+}
+.fifth{
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    min-height: 100vh;
+    height: auto; 
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.fifth .textdiv{
+    width: 50%;
+    margin-right: 3rem;
+    margin-top: 5rem;
+    }
+   
+     .fifth .imgdiv{
+        background-image: url("images/fresh-salad-with-turkey-eggs-vegetables.jpg");
+        height: 30rem;
+        width: 30rem;
+        border-radius: 25px;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.3s ease-in-out;
+
+    }
+    .fifth .imgdiv:hover{
+        transform: scale(1.02); 
+
+    }
+.sixth{
+    width: 100%;
+    background-image:url("images/chillies.jpg") ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-left: 3rem;
+
+    min-height: 100vh;
+    height: auto; 
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 150px; 
+
+
+}
+.sixth .content{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #f1ae0e;
+
+}
+.sixth .thirdchild{
+    margin-top: 9rem;
+    width: 70%;
+}
+
+.submitbtn{
+    background-color: #99e54d;
+    color: #111111;
+    border-radius: 30px;
+    padding: 1rem;
+    width: 15rem;
+    border-color: #99e54d;
+    font-size: 1.3rem;
+
+}
+.seventh{
+    width: 100%;
+    background-color:#1a1a1a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    min-height: 80vh;
+    height: auto; 
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.seven1,.seven2,.seven3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4rem;
+}
+.icontext{
+    font-size: 25px;
+    font-weight: 650;
+
+}
+.description{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.address{
+    color: #f1ae0e;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icon{
+    background-color: #99e54d;
+    color: black;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
